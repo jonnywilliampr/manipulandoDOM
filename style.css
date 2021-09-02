@@ -11,8 +11,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    font-size: 26px;
     color: white;
     font-family: sans-serif;
 }
@@ -42,4 +40,35 @@ body{
 .green{
     background-color: green;
     transition: 1s ease;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    
+    padding: 40px;
+}
+
+.border{
+    border: 1px solid red;
+}
+
+h2{
+    font-size: 54px;
+    color: white;
+}
+
+.accordion-button{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    margin-top: 16px;
+}
+
+.accordion-content{
+    overflow: hidden;
+    margin-top: 10px;
+    transition: .5s ease;
 }
